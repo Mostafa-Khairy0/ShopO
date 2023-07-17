@@ -44,6 +44,10 @@ input[type=number] {
 }
 .no-events{
   font-size: 10vmin;
-  width: 100%;
+  width: 65vh;
   height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
 }
