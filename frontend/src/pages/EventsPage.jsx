@@ -17,7 +17,7 @@ const EventsPage = () => {
             allEvents.length===0?
               allEvents.map((event) => <EventCard active={true} data={event} />)
               :
-              <div className="no-events">"No Events run now"</div>
+              <div className="no-events">No Events run now</div>
           }
           
         </div>
