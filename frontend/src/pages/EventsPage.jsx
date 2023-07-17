@@ -15,9 +15,9 @@ const EventsPage = () => {
           <Header activeHeading={4} />
           {
             allEvents.length===0?
-              allEvents.map((event) => <EventCard active={true} data={event} />)
-              :
               <div className="no-events">No Events run now</div>
+              :
+              allEvents.map((event) => <EventCard active={true} data={event} />)
           }
           
         </div>
