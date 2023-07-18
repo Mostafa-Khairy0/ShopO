@@ -51,3 +51,23 @@ input[type=number] {
   align-items: center;
   font-weight: 700;
 }
+/* Width and Height of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+
+/* Background color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Color of the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
