@@ -8,6 +8,8 @@
 
 *{
   scroll-behavior: smooth;
+  scrollbar-color: #4c4c4c transparent;
+  scrollbar-width: thin;
 }
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -51,23 +53,15 @@ input[type=number] {
   align-items: center;
   font-weight: 700;
 }
-/* Width and Height of the scrollbar track */
 ::-webkit-scrollbar {
   width: 10px;
-  border-radius: 5px;
 }
 
-/* Background color of the scrollbar track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background-color: transparent;
 }
 
-/* Color of the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Color of the scrollbar thumb on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #444;
+  background-color: #4b4b4b;
+  border-radius: 5px;
 }
